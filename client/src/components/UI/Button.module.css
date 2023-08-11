@@ -1,8 +1,21 @@
-.button{
-    background-color: lightgray;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 18px;
-    box-shadow: 0 2px 8px rgb(0, 0 , 0 , 0.25);
-    border-color: lightgray;
+.button {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.25);
+  border-color: lightgray;
+}
+
+@media screen and (max-width: 720px) {
+  button {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  button {
+    font-size: 14px;
+    width: 100%;
+  }
 }

@@ -1,12 +1,17 @@
 import { Fragment } from 'react';
-import Header from './components/Layout/Header';
+
 import './App.css';
+
+import Header from './components/Layout/Header';
+import Menu from './components/Layout/Menu';
+
 
 function App() {
   return (
-    <Fragment>
+    <div>
       <Header />
-    </Fragment>
+      <Menu />
+    </div>
   );
 }
 
